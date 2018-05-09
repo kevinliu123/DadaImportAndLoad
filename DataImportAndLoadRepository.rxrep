@@ -32,6 +32,73 @@ rxversion="8.1">
 			searchtimeout="30000ms">
 				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/?/?/list[@automationid='MessageBar']/text[@caption~'^Select\ patient\ data\ for\ t']
 			</item>
+			<folder
+			addcaps="list,wpfelement,wpfgroupelement"
+			capname="list"
+			id="e2b944f0-7bf0-46e7-8bdd-969c6ab92a34"
+			isrooted="True"
+			name="SomeList1"
+			refpath="/form[@title='7D Surgical Software - Spine Module']/container[1]/list"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="list,wpfelement,wpfgroupelement"
+				capname="list"
+				id="9fc27105-13bd-4042-8921-4ccced35f16a"
+				name="SomeList"
+				refpath="/form[@title='7D Surgical Software - Spine Module']/container[1]/list"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list
+				</item>
+				<item
+				addcaps="radiobutton,wpfelement,wpfgroupelement"
+				capname="radiobutton"
+				id="96a3f5da-ec67-4fd9-b5ac-ee3801be5593"
+				name="WorkflowButton2"
+				refpath="/form[@title='7D Surgical Software - Spine Module']/container[1]/list/radiobutton[@automationid='WorkflowButton' and @name='WorkflowButton' and @text='Define Levels']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@name='WorkflowButton' and @text='Define Levels']
+				</item>
+				<item
+				addcaps="radiobutton,wpfelement,wpfgroupelement"
+				capname="radiobutton"
+				id="8d975658-3989-4c1c-9547-2ad3d7edde2c"
+				name="WorkflowButton"
+				refpath="/form[@title='7D Surgical Software - Spine Module']/container[1]/list/radiobutton[@automationid='WorkflowButton' and @name='WorkflowButton' and @text='Load Data']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@name='WorkflowButton' and @text='Load Data']
+				</item>
+				<item
+				addcaps="radiobutton,wpfelement,wpfgroupelement"
+				capname="radiobutton"
+				id="7b683117-115e-4fb9-aa91-4151cdc61a39"
+				name="WorkflowButton4"
+				refpath="/form[@title='7D Surgical Software - Spine Module']/container[1]/list/radiobutton[@automationid='WorkflowButton' and @name='WorkflowButton' and @text='Navigate']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@name='WorkflowButton' and @text='Navigate']
+				</item>
+				<item
+				addcaps="radiobutton,wpfelement,wpfgroupelement"
+				capname="radiobutton"
+				id="a799fbcd-478b-4b23-ada9-6034dbd06f37"
+				name="WorkflowButton3"
+				refpath="/form[@title='7D Surgical Software - Spine Module']/container[1]/list/radiobutton[@automationid='WorkflowButton' and @name='WorkflowButton' and @text='Register']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@name='WorkflowButton' and @text='Register']
+				</item>
+				<item
+				addcaps="radiobutton,wpfelement,wpfgroupelement"
+				capname="radiobutton"
+				id="3b9e5452-9eb2-47b9-a401-578304b9e9bd"
+				name="WorkflowButton1"
+				refpath="/form[@title='7D Surgical Software - Spine Module']/container[1]/list/radiobutton[@automationid='WorkflowButton' and @name='WorkflowButton' and @text='Threshold']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@name='WorkflowButton' and @text='Threshold']
+				</item>
+				<basepath>
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list
+				</basepath>
+			</folder>
 			<basepath>
 				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']
 			</basepath>

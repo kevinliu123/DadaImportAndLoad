@@ -69,6 +69,29 @@ rxversion="8.1">
 				Select patient data for this procedure.
 			</matchvalue>
 		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="752357ad-0182-479a-a110-8b6e2e64835f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d975658-3989-4c1c-9547-2ad3d7edde2c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@name='WorkflowButton' and @text='Load Data']
+				</path>
+			</info>
+			<matchname>
+				Checked
+			</matchname>
+			<matchvalue>
+				true
+			</matchvalue>
+		</validationitem>
 	</recorditems>
 	<repository
 	id="8022a725-4058-4c85-81fb-83a253346d05"

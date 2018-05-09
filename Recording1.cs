@@ -87,6 +87,10 @@ namespace DataImportAndLoad
             Validate.AttributeEqual(repo.Form7DSurgicalSoftwareSpineModule.SelectPatientDataForThisProcedureInfo, "Text", "Select patient data for this procedure.");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='true') on item 'Form7DSurgicalSoftwareSpineModule.SomeList1.WorkflowButton'.", repo.Form7DSurgicalSoftwareSpineModule.SomeList1.WorkflowButtonInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.Form7DSurgicalSoftwareSpineModule.SomeList1.WorkflowButtonInfo, "Checked", "true");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
