@@ -117,6 +117,1398 @@ ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
 WGxICxTCCOcAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="44218f95-d560-4349-933b-7f568d502bd5"
+		isrooted="True"
+		name="PatientDataWindow"
+		refpath="/form[@automationid='PatientDataWindow']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,wpfelement,wpfgroupelement"
+			capname="container"
+			id="ab9e081d-76a1-483a-a6eb-10896332bb31"
+			name="SomeContainer12"
+			refpath="/form[@automationid='PatientDataWindow']/container[@caption='']"
+			searchtimeout="30000ms">
+				/form[@automationid='PatientDataWindow']/container[@caption='']
+			</item>
+			<folder
+			capname="list"
+			id="00db6818-4cb1-488f-8deb-d9d81f2becb4"
+			isrooted="True"
+			name="PatientSelector1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="73dcefab-ae8d-48cc-8d6f-1a8471497f96"
+				name="PARTHeaderGripper2"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Birth Date']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="b8963c51-ea64-47aa-898e-9cb30b40dc2d"
+				name="BirthDate"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Birth Date']/text[@caption='Birth Date']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="35c3cfbe-bffd-4e03-9162-34fac61c493e"
+				name="PARTHeaderGripper1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Last Updated']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="7bc6e448-9f62-4387-83fe-082f53894d32"
+				name="LastUpdated"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Last Updated']/text[@caption='Last Updated']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="60af0d64-5d36-4c97-9fff-47d1f687b675"
+				name="PARTHeaderGripper4"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Patient ID']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="9bae234c-d7c5-44d6-9eb5-82d6268a9345"
+				name="PatientID"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Patient ID']/text[@caption='Patient ID']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="716c1dd8-bd40-4baa-ba59-818dc3f606fa"
+				name="PARTHeaderGripper3"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Patient Name']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="4119e971-2f10-44bb-8d26-375ccc5ffe80"
+				name="PatientName"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/?/?/button[@text='Patient Name']/text[@caption='Patient Name']
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="40a94507-98dd-4752-9eac-2d019126fa4a"
+				name="SomeContainer"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[1]
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="c35668cc-f0e9-47a0-858d-b06b4b17b207"
+				name="SomeContainer1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[2]
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="a7a88114-caac-47d1-bd03-1f28edcbfcec"
+				name="SomeContainer2"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="bbefd9d1-35d0-4e02-9d23-b7f77ca5a72c"
+				name="SomeButton2"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[1]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="32d263a7-a4c2-479c-9ee9-d1ac9c824f5c"
+				name="SomeButton3"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[2]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="daea0d9f-5773-480d-9f05-ef3a95618250"
+				name="PARTHeaderGripper"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[2]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="6f214a95-f901-4298-a2f7-3377f1d939df"
+				name="SomeText"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[2]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="401d60e7-9805-434a-a221-196c9e2a3430"
+				name="SomeButton4"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[7]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="ac03cccb-a8ac-4e45-b21a-47c7e413dc45"
+				name="PARTHeaderGripper5"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[7]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="cafd4240-e1e6-42e0-a6b2-ef431db4cc93"
+				name="SomeText1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[7]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="af2321f4-8f77-4187-8684-1c396f586321"
+				name="SomeButton5"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[8]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="2f2dfead-9fb6-41cf-a3bd-9253a12ae99c"
+				name="PARTHeaderGripper6"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[8]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="b1fc7784-3f57-42d2-bdd7-0282b04dd9df"
+				name="SomeText2"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[8]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="f6bfadb1-e5f6-43d6-b989-c07b9e30ec42"
+				name="SomeButton6"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[9]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="ff8fbf3e-21cf-4909-9b78-411f86650a62"
+				name="BirthDate1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[@text='Birth Date']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="4132b5cf-9b08-4317-a9ec-530aa4f2aaf5"
+				name="LastUpdated1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[@text='Last Updated']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="b20072e8-c9bd-4c42-a9ba-711742fc773d"
+				name="PatientID1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[@text='Patient ID']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="92c2eb21-051e-42e6-b90f-e64c1b5118c8"
+				name="PatientName1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/button[@text='Patient Name']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="292dc939-ebb9-4285-938c-bbd5f6fe47e3"
+				name="HorizontalScrollBar"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/scrollbar[@automationid='HorizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="b7eb56ec-08c5-4d1d-b5ef-7c0ce051851e"
+				name="VerticalScrollBar"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/scrollbar[@automationid='VerticalScrollBar']
+				</item>
+				<item
+				addcaps="separator,wpfelement"
+				capname="separator"
+				id="2c66330e-099a-4dd6-bae5-b5767685edc7"
+				name="SomeSeparator"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[3]/separator
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="81df44ab-c480-47c6-94cd-ad2f67839062"
+				name="PARTScrollContentPresenter"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/container[@automationid='PART_ScrollContentPresenter']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="90679c17-8e82-4385-b9a7-c7e280d571c7"
+				name="PARTHorizontalScrollBar"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_HorizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement,wpfgroupelement"
+				capname="scrollbar"
+				id="3b82ffb6-309f-4018-aa3f-8981a53eed9b"
+				name="PARTVerticalScrollBar"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_VerticalScrollBar']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="e71b5465-90a6-4b9e-a38a-ae213a340a65"
+				name="SomeGrip"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_VerticalScrollBar']/?/?/grip
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="293a90f5-f0c3-45e9-a1ce-3c0b91625510"
+				name="PARTLineDownButton"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_VerticalScrollBar']/button[@automationid='PART_LineDownButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="cb34b59a-3878-4b24-84fb-0919d3307f38"
+				name="PARTLineUpButton"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_VerticalScrollBar']/button[@automationid='PART_LineUpButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="15851a0f-f8cf-4a92-a02f-7b9a60b5d9fd"
+				name="SomeButton"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_VerticalScrollBar']/slider/button[1]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="46736620-1c7f-40e3-970e-226c658fafd0"
+				name="SomeButton1"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_VerticalScrollBar']/slider/button[2]
+				</item>
+				<item
+				addcaps="slider,wpfelement"
+				capname="slider"
+				id="ff9078f2-81f0-4fc6-b8db-8dfe0869b225"
+				name="PARTTrack"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']/scrollbar[@automationid='PART_VerticalScrollBar']/slider[@automationid='PART_Track']
+				</item>
+				<basepath>
+					/form[@automationid='PatientDataWindow']//list[@automationid='PatientSelector' and @selecteditemindex='-1']
+				</basepath>
+			</folder>
+			<folder
+			capname="list"
+			id="28a6f738-ac09-4cfa-a7ff-80254259d59f"
+			isrooted="True"
+			name="SeriesSelector1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="ad07d413-d8cc-4d98-bd24-aa06b65cb307"
+				name="PARTHeaderGripper16"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='# of Images']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='# of Images']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="8c54da3d-1e97-4413-b8a9-8c9ecbab6caa"
+				name="TextHashOfImages"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='# of Images']/text[@caption='# of Images']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='# of Images']/text[@caption='# of Images']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="c85f8ab4-77c5-46d4-9986-00c800b36c28"
+				name="PARTHeaderGripper20"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Modality']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Modality']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="63cbecbe-3c2c-4dcf-ab18-3e5b5311b763"
+				name="Modality"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Modality']/text[@caption='Modality']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Modality']/text[@caption='Modality']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="9738fa5a-0e91-4c74-8229-c5f8bceb384d"
+				name="PARTHeaderGripper21"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series #']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series #']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="313b606f-002c-47e9-87b1-718b4f639db4"
+				name="SeriesHash"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series #']/text[@caption='Series #']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series #']/text[@caption='Series #']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="8e8cbd1a-2d53-4670-9956-30454ee18afe"
+				name="PARTHeaderGripper19"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Date']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series Date']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="c90006f0-f5aa-431e-8028-d12d4330c97f"
+				name="SeriesDate"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Date']/text[@caption='Series Date']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series Date']/text[@caption='Series Date']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="a0ae2947-5d65-4e6c-8097-f03bbc5a87c6"
+				name="PARTHeaderGripper17"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Description']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series Description']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="a049b2bd-fb35-41ae-bc74-2d6a0cd20774"
+				name="SeriesDescription"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Description']/text[@caption='Series Description']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series Description']/text[@caption='Series Description']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="de6b2fbe-b664-4595-83c8-0ccaa56be20f"
+				name="PARTHeaderGripper18"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Time']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series Time']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="a15365ff-0ec6-44c9-8ebf-2308196bc405"
+				name="SeriesTime"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Time']/text[@caption='Series Time']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Series Time']/text[@caption='Series Time']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="5af3f7ec-da2a-48ee-b895-b29e8c2b6c59"
+				name="PARTHeaderGripper15"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Slice Thickness (mm)']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Slice Thickness (mm)']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="7811dc10-1083-4251-b819-106b21e5cb93"
+				name="SliceThicknessMm"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Slice Thickness (mm)']/text[@caption='Slice Thickness (mm)']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/?/?/button[@text='Slice Thickness (mm)']/text[@caption='Slice Thickness (mm)']
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="b281fe2f-4066-41ea-b897-3f6b71cc365c"
+				name="SomeContainer6"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[1]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[1]
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="7553e1a3-35cb-498a-a456-d115d3ff108a"
+				name="SomeContainer7"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[2]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[2]
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="938d8469-0f79-4c9a-8c9c-f726c72fe213"
+				name="SomeContainer8"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="b5557662-02aa-43da-99b4-e4cee423f53d"
+				name="SomeButton13"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[10]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[10]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="c9ea7254-6b76-417f-89fd-9f9c89c07e4d"
+				name="PARTHeaderGripper23"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[10]/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[10]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="55978f68-62aa-4deb-9a1f-536e1c5c2411"
+				name="SomeText6"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[10]/text[@caption='']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[10]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="861aeb68-d2bf-49fd-a129-5f1dfbebf425"
+				name="SomeButton14"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[11]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[11]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="55e7e28b-0263-4326-81e3-92b4d0152967"
+				name="PARTHeaderGripper24"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[11]/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[11]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="ae7dcc22-a923-4360-98c9-e1bd7ae8e186"
+				name="SomeText7"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[11]/text[@caption='']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[11]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="5e728664-1919-4038-ac3d-4790a634842e"
+				name="SomeButton15"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[12]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[12]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="766af2b4-50b2-4869-9abd-72df50084d19"
+				name="SomeButton11"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[1]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[1]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="7f3dd953-5c12-4926-9eed-e658c792819a"
+				name="SomeButton12"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[9]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[9]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="04df4705-12d4-417a-a58c-5b1b7462633a"
+				name="PARTHeaderGripper22"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[9]/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[9]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="8c0369d0-e0b0-462b-9bc8-e658828b3958"
+				name="SomeText5"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[9]/text[@caption='']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[9]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="26e15116-e55e-45c3-890b-8825d209e4b2"
+				name="ButtonHashOfImages"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='# of Images']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[@text='# of Images']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="85af19f5-481e-42c5-b19f-003ee554bbeb"
+				name="Modality1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Modality']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[@text='Modality']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="880f8cdb-f00c-416b-acfc-4bcdda0f969a"
+				name="SeriesHash1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series #']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[@text='Series #']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="72d5dd2b-7abe-48ec-839e-ca42e5c0ef83"
+				name="SeriesDate1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Date']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[@text='Series Date']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="3fbe862e-40fb-4b78-845a-bb160afb39c7"
+				name="SeriesDescription1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Description']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[@text='Series Description']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="45fb19a6-d3bd-4dad-af5d-6acdb8f03e78"
+				name="SeriesTime1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Series Time']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[@text='Series Time']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="2b7d8117-7bd4-40a1-b980-b5c78cc52a21"
+				name="SliceThicknessMm1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/button[@text='Slice Thickness (mm)']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/button[@text='Slice Thickness (mm)']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="d38c10b2-7c65-45f4-8297-486e52581097"
+				name="HorizontalScrollBar2"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/scrollbar[@automationid='HorizontalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/scrollbar[@automationid='HorizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="c6d031f0-5a5c-4392-8742-134d5fbc7a3d"
+				name="VerticalScrollBar2"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/scrollbar[@automationid='VerticalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/scrollbar[@automationid='VerticalScrollBar']
+				</item>
+				<item
+				addcaps="separator,wpfelement"
+				capname="separator"
+				id="2f640110-301b-496c-849f-4121c9088c48"
+				name="SomeSeparator2"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[3]/separator"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[3]/separator
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="67217f0a-09da-4231-8e9b-8cc010116ffc"
+				name="PARTScrollContentPresenter2"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/container[@automationid='PART_ScrollContentPresenter']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/container[@automationid='PART_ScrollContentPresenter']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="597b0733-f504-467b-b042-549096020c5b"
+				name="PARTHorizontalScrollBar2"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/scrollbar[@automationid='PART_HorizontalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/scrollbar[@automationid='PART_HorizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="19d7b810-3fd5-42e5-b93f-235c6a385880"
+				name="PARTVerticalScrollBar2"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']/scrollbar[@automationid='PART_VerticalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']/scrollbar[@automationid='PART_VerticalScrollBar']
+				</item>
+				<basepath>
+					/form[@automationid='PatientDataWindow']//list[@automationid='SeriesSelector']
+				</basepath>
+			</folder>
+			<folder
+			capname="list"
+			id="b28dd132-371f-47d1-b51f-a8e69c0f88e6"
+			isrooted="True"
+			name="StudySelector1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="b06ae12a-266b-4464-bfcf-7cbb7a454257"
+				name="PARTHeaderGripper9"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Accession #']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Accession #']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="7b039add-a44a-47e4-b075-e1b027967846"
+				name="AccessionHash"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Accession #']/text[@caption='Accession #']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Accession #']/text[@caption='Accession #']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="276105d8-3098-4118-a877-dab4f3e9e2bf"
+				name="PARTHeaderGripper8"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Referring Physician']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Referring Physician']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="d0cccbe7-15e0-4779-bae5-875fed2eef45"
+				name="ReferringPhysician"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Referring Physician']/text[@caption='Referring Physician']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Referring Physician']/text[@caption='Referring Physician']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="2defe643-65f0-4b3e-9eb7-0933448e7974"
+				name="PARTHeaderGripper11"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Date']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study Date']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="6df9779f-241c-421e-9224-08f9555b769a"
+				name="StudyDate"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Date']/text[@caption='Study Date']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study Date']/text[@caption='Study Date']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="73909f0c-041f-4295-8a91-e8b88de45620"
+				name="PARTHeaderGripper7"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Description']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study Description']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="d0632efd-0e3c-402f-9138-8dce74a22fb1"
+				name="StudyDescription"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Description']/text[@caption='Study Description']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study Description']/text[@caption='Study Description']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="c6c0c48e-1feb-4e17-a60c-bdeca8217025"
+				name="PARTHeaderGripper12"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study ID']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study ID']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="e9f2fa8d-6df5-42c5-9d0f-77bbdd57b84d"
+				name="StudyID"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study ID']/text[@caption='Study ID']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study ID']/text[@caption='Study ID']
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="e93c07db-bfa6-4286-9ae5-68e2a868e270"
+				name="PARTHeaderGripper10"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Time']/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study Time']/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="b7ba41b3-0710-45a9-a36f-6e5dfe11a717"
+				name="StudyTime"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Time']/text[@caption='Study Time']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/?/?/button[@text='Study Time']/text[@caption='Study Time']
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="1ce65aa2-a74d-4acb-a18b-4285c0362dfd"
+				name="SomeContainer3"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[1]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[1]
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="acc6ed07-a980-45ee-b63b-6c584cbe4fa5"
+				name="SomeContainer4"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[2]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[2]
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="a879cf63-e191-4fda-a235-6382e1753de0"
+				name="SomeContainer5"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]
+				</item>
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="e2304552-2d33-4642-8c75-ac954123c9f8"
+				name="SomeButton10"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[10]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[10]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="9680d727-35c5-40c7-bb8b-a6e77c70c9eb"
+				name="SomeButton7"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[1]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[1]
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="f0f859d0-c9a9-4902-af8b-fafb4f1a683e"
+				name="SomeButton8"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[8]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[8]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="e281a7ce-be5d-48fb-96da-11aa7357cb12"
+				name="PARTHeaderGripper13"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[8]/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[8]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="2ecbe532-95e2-4daf-8c52-1552896a1293"
+				name="SomeText3"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[8]/text[@caption='']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[8]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="60a3c46f-2ce1-4718-9070-8de8dbc00f4f"
+				name="SomeButton9"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[9]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[9]
+				</item>
+				<item
+				addcaps="grip,wpfelement,wpfgroupelement"
+				capname="grip"
+				id="48195b36-0ca7-4599-b285-f0e94b6aee8d"
+				name="PARTHeaderGripper14"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[9]/grip[@automationid='PART_HeaderGripper']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[9]/grip[@automationid='PART_HeaderGripper']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="fff01d5b-db56-409a-bb27-1d183d8aa6d6"
+				name="SomeText4"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[9]/text[@caption='']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[9]/text[@caption='']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="5e00e731-f28a-4a33-9c0c-798eca1944da"
+				name="AccessionHash1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Accession #']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[@text='Accession #']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="421c39cd-2d26-4e37-9773-b3897034f0b3"
+				name="ReferringPhysician1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Referring Physician']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[@text='Referring Physician']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="f23a9b92-aee5-4b66-8244-b11ac3107b13"
+				name="StudyDate1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Date']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[@text='Study Date']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="e7dab62c-bdd2-4261-ac69-3d96b2193a13"
+				name="StudyDescription1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Description']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[@text='Study Description']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="bb052782-01f8-4471-a386-0cea85847d76"
+				name="StudyID1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study ID']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[@text='Study ID']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="d957c376-d991-4236-b1db-efa69ba6127c"
+				name="StudyTime1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/button[@text='Study Time']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/button[@text='Study Time']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="c9ab2a43-8f2f-4733-87b0-3c8a6106650a"
+				name="HorizontalScrollBar1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/scrollbar[@automationid='HorizontalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/scrollbar[@automationid='HorizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="2b3d78a1-0b97-4964-8d75-e2f9d9a873e2"
+				name="VerticalScrollBar1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/scrollbar[@automationid='VerticalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/scrollbar[@automationid='VerticalScrollBar']
+				</item>
+				<item
+				addcaps="separator,wpfelement"
+				capname="separator"
+				id="1ae5cb29-a1a3-4141-be32-d689e2099534"
+				name="SomeSeparator1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[3]/separator"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[3]/separator
+				</item>
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="62b192af-2d8c-428d-ae27-b625b865312c"
+				name="PARTScrollContentPresenter1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/container[@automationid='PART_ScrollContentPresenter']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/container[@automationid='PART_ScrollContentPresenter']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="54ddb42b-b890-4945-9b9b-4e136f52974a"
+				name="PARTHorizontalScrollBar1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/scrollbar[@automationid='PART_HorizontalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/scrollbar[@automationid='PART_HorizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="b0eb398f-c469-4ef1-a84a-7996acc2a027"
+				name="PARTVerticalScrollBar1"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']/scrollbar[@automationid='PART_VerticalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']/scrollbar[@automationid='PART_VerticalScrollBar']
+				</item>
+				<basepath>
+					/form[@automationid='PatientDataWindow']//list[@automationid='StudySelector']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="39b05e56-4d43-437c-a2b2-60f26a8fd378"
+			isrooted="True"
+			name="SomeContainer"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="8592d6f1-0384-4f05-921e-96e6d23b1734"
+				name="SomeContainer9"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[1]
+				</item>
+				<item
+				addcaps="list,wpfelement,wpfgroupelement"
+				capname="list"
+				id="11f97d1d-24e5-4c69-a0e4-e10aee829f20"
+				name="PatientSelector"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='PatientSelector']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[1]/list[@automationid='PatientSelector']
+				</item>
+				<item
+				addcaps="list,wpfelement,wpfgroupelement"
+				capname="list"
+				id="a8722b8d-8f7f-4367-b0f6-cf1a89528fe8"
+				name="SeriesSelector"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='SeriesSelector']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[1]/list[@automationid='SeriesSelector']
+				</item>
+				<item
+				addcaps="list,wpfelement,wpfgroupelement"
+				capname="list"
+				id="3177175c-55a3-4d67-8a00-2390bc3ad35f"
+				name="StudySelector"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[1]/list[@automationid='StudySelector']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[1]/list[@automationid='StudySelector']
+				</item>
+				<basepath>
+					/form[@automationid='PatientDataWindow']/container/container[1]
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="1d73ab7e-de03-411c-962a-dc58b91b8757"
+			isrooted="True"
+			name="SomeContainer1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="e583dcc3-324d-477d-b26e-7d5295b96844"
+				name="SomeContainer11"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[2]"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[2]
+				</item>
+				<item
+				addcaps="picture,wpfelement"
+				capname="picture"
+				id="75bca519-1e7d-43be-8566-fbc74da75448"
+				name="SomePicture"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[2]/container[@caption='']/picture"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[2]/?/?/picture
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="7d383c6f-1a3f-437a-81ef-3b49d24e8ae4"
+				name="Text8073PercentFree"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[2]/container[@caption='']/text[@caption='80.73 % free']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[2]/?/?/text[@caption='80.73 % free']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="e34d8204-6264-46bb-a0fa-4203caa0fabc"
+				name="LoadButton"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[2]/button[@automationid='LoadButton']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[2]/button[@automationid='LoadButton']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="d257dc02-658f-48bf-bfdc-45809abab250"
+				name="Close"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[2]/button[@text='Close']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[2]/button[@text='Close']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="c8c26d30-091d-4ea3-97a3-0994b49ccad0"
+				name="Import"
+				refimgid="87568c52-47c9-4332-a1da-596ed66e9a27"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[2]/button[@text='Import']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[2]/button[@text='Import']
+				</item>
+				<item
+				addcaps="container,wpfelement"
+				capname="container"
+				id="c31447f1-04d3-4122-9b25-4801b87cecae"
+				name="SomeContainer10"
+				refpath="/form[@automationid='PatientDataWindow']/container[@caption='']/container[2]/container[@caption='']"
+				searchtimeout="30000ms">
+					/form[@automationid='PatientDataWindow']/container/container[2]/container[@caption='']
+				</item>
+				<basepath>
+					/form[@automationid='PatientDataWindow']/container/container[2]
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@automationid='PatientDataWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhPpZPPaxpBFMf9Q5ofTWiggV5bekpD
+Q0+BpO3Bk+0toUfB+1KCIKkQCmu8NNTG01riQazoxR8o6FY8NKikIIJVMUWNu+7O7Mz+ojODwgb6
+I6FfeMzOvvf98PbNrMv+TzkB5mdBUGKCAJyRSn5RabLT6eD42RkYj8eIVc/kBKDlOwvo7sKi7YxP
+HyPYJHqxs8tyW082oUE081wDWI1GAzfqdX0eJx9OrojXGo1GiO5fe14ZFNLr9VhXVH+cgaZpxubG
+hjwYDPTjUIgZjnmedfGj0/k3IHj4DpJi+GZvXzsMBDT6LhwK3Qzw/eICra2smi93n0+p4VYAOjBi
+1O7fWzPPv53fHhA9PaWt2yGex7IkASfg/dER/ivg5+UlfrC+bjx7uqVjjM05YGd7G73lOPT44SNz
+ZXHJIncBzizXAWRgkBZ8FUVM97IsU4A1j9WlZcN/cKCw4plckiQZ5Px1UmxYloW63S5oNpsYQmi1
+Wi19OBxCkoPtdhuSI9UAACYN6mOAcDgsJZNJORKJ0LaQ2+2WarWa6vP5pHQ6PSVxxfM8FARhms1m
+lXg8rpJnJRaLAQYQRVGNRqMTjuOmk8lE83g8ci6XU71e76harSKyKsFgEOTzea1YLMJAICD5/X6J
+ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
+WGxICxTCCOcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="4900b9bc-15ab-4f2c-bcb8-c2a6cd3a62c6"
+		isrooted="True"
+		name="DataImportWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="258693ca-24cb-409f-9639-46c46f8c79d8"
+			name="FilesDiscovered"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/?/?/progressbar/?/?/text[@caption='Files discovered:']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="b16c923a-6883-4ca4-b798-e0cfedb46632"
+			name="ItemsImported"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/?/?/progressbar/?/?/text[@caption='Items imported:']
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="e2dd8247-7bad-49b8-8ea4-82985c496975"
+			name="FilesIgnored"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/?/?/progressbar/?/?/text[@caption='Files ignored:']
+			</item>
+			<item
+			addcaps="container,wpfelement"
+			capname="container"
+			id="5df4137b-9d11-4034-872e-9d2a47786553"
+			name="SomeContainer"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/?/?/progressbar/?/?/container[@caption='']
+			</item>
+			<item
+			addcaps="container,wpfelement,wpfgroupelement"
+			capname="container"
+			id="3f6dc201-307e-4bed-af30-a04941515d38"
+			name="PARTIndicator"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/?/?/progressbar/container[@automationid='PART_Indicator']
+			</item>
+			<item
+			addcaps="progressbar,wpfelement,wpfgroupelement"
+			capname="progressbar"
+			id="b1473799-5fd5-4b36-ae3a-2046d83bdc71"
+			name="SomeProgressBar"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/?/?/progressbar
+			</item>
+			<item
+			addcaps="container,wpfelement"
+			capname="container"
+			id="a0411ab3-42b9-4406-a20e-77829d03caf0"
+			name="SomeContainer2"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/container/container[@caption='']
+			</item>
+			<item
+			addcaps="container,wpfelement,wpfgroupelement"
+			capname="container"
+			id="ed0d7044-9b57-45c3-9311-bcd4e99577ee"
+			name="SomeContainer3"
+			searchtimeout="30000ms">
+				/form[@automationid='DataImportWindow']/container[@caption='']
+			</item>
+			<folder
+			addcaps="container,wpfelement,wpfgroupelement"
+			capname="container"
+			id="b8757806-f72b-42db-8ac3-3f608e9db498"
+			isrooted="True"
+			name="SomeContainer4"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,wpfelement,wpfgroupelement"
+				capname="container"
+				id="d9a9530d-26c6-49c8-bf70-239c867cd66d"
+				name="SomeContainer1"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/progressbar/container[@caption='']
+				</item>
+				<item
+				addcaps="picture,wpfelement"
+				capname="picture"
+				id="c17a88f5-0c56-4986-b863-d339b3d7e176"
+				name="SomePicture"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/progressbar/container[@caption='']/?/?/picture
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="28701e33-7348-4170-ac07-4d2170cb90c6"
+				name="SomeText2"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/progressbar/container[@caption='']/?/?/text[@caption='']
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="8569c0d5-c524-450d-bcf1-97db90ea26c7"
+				name="SomeText"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/progressbar/container[@caption='']/text[2]
+				</item>
+				<item
+				addcaps="text,wpfelement"
+				capname="text"
+				id="3b579215-2a02-4246-afd6-f4c24872b660"
+				name="SomeText1"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/progressbar/container[@caption='']/text[4]
+				</item>
+				<basepath>
+					/form[@automationid='DataImportWindow']/?/?/progressbar/container[@caption='']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="tree,wpfelement,wpfgroupelement"
+			capname="tree"
+			id="e83d4372-2032-42f1-8360-0c0d7b599017"
+			isrooted="True"
+			name="SomeTree1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tree,wpfelement,wpfgroupelement"
+				capname="tree"
+				id="8e9c849c-770c-4555-98b1-9a6b7c2f4701"
+				name="SomeTree"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/tree
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="3d88c71c-a3b8-4295-ad3a-83d3f1f2394e"
+				name="HorizontalScrollBar"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/tree/scrollbar[@automationid='HorizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,wpfelement"
+				capname="scrollbar"
+				id="ec7b9bcc-51b1-40a0-8bc1-138b4d709bcf"
+				name="VerticalScrollBar"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/?/?/tree/scrollbar[@automationid='VerticalScrollBar']
+				</item>
+				<basepath>
+					/form[@automationid='DataImportWindow']/?/?/tree
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="de114ccb-97ef-42c8-ba65-dd41bc7d94e5"
+			isrooted="True"
+			name="SomeContainer1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="3349a04b-a64e-4008-b483-c5da7404f051"
+				name="ImportButton"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/container[@caption='']/?/?/button[@automationid='ImportButton']
+				</item>
+				<item
+				addcaps="button,wpfelement"
+				capname="button"
+				id="e52cb27b-cd02-4991-bcfe-29ae02400907"
+				name="Cancel"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/container[@caption='']/?/?/button[@text='Cancel']
+				</item>
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="fd8b1e64-7cb4-4d49-a099-01993e9de400"
+				name="Close"
+				searchtimeout="30000ms">
+					/form[@automationid='DataImportWindow']/container[@caption='']/?/?/button[@text='Close']
+				</item>
+				<basepath>
+					/form[@automationid='DataImportWindow']/container[@caption='']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@automationid='DataImportWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhPpZPPaxpBFMf9Q5ofTWiggV5bekpD
+Q0+BpO3Bk+0toUfB+1KCIKkQCmu8NNTG01riQazoxR8o6FY8NKikIIJVMUWNu+7O7Mz+ojODwgb6
+I6FfeMzOvvf98PbNrMv+TzkB5mdBUGKCAJyRSn5RabLT6eD42RkYj8eIVc/kBKDlOwvo7sKi7YxP
+HyPYJHqxs8tyW082oUE081wDWI1GAzfqdX0eJx9OrojXGo1GiO5fe14ZFNLr9VhXVH+cgaZpxubG
+hjwYDPTjUIgZjnmedfGj0/k3IHj4DpJi+GZvXzsMBDT6LhwK3Qzw/eICra2smi93n0+p4VYAOjBi
+1O7fWzPPv53fHhA9PaWt2yGex7IkASfg/dER/ivg5+UlfrC+bjx7uqVjjM05YGd7G73lOPT44SNz
+ZXHJIncBzizXAWRgkBZ8FUVM97IsU4A1j9WlZcN/cKCw4plckiQZ5Px1UmxYloW63S5oNpsYQmi1
+Wi19OBxCkoPtdhuSI9UAACYN6mOAcDgsJZNJORKJ0LaQ2+2WarWa6vP5pHQ6PSVxxfM8FARhms1m
+lXg8rpJnJRaLAQYQRVGNRqMTjuOmk8lE83g8ci6XU71e76harSKyKsFgEOTzea1YLMJAICD5/X6J
+ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
+WGxICxTCCOcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

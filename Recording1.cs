@@ -91,6 +91,21 @@ namespace DataImportAndLoad
             Validate.AttributeEqual(repo.Form7DSurgicalSoftwareSpineModule.SomeList1.WorkflowButtonInfo, "Checked", "true");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'PatientDataWindow.SomeContainer12'.", repo.PatientDataWindow.SomeContainer12Info, new RecordItemIndex(3));
+            Validate.Exists(repo.PatientDataWindow.SomeContainer12Info);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (SelectedItemIndex='-1') on item 'PatientDataWindow.PatientSelector1'.", repo.PatientDataWindow.PatientSelector1.SelfInfo, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.PatientDataWindow.PatientSelector1.SelfInfo, "SelectedItemIndex", "-1");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'PatientDataWindow.SomeContainer1.Import' at 56;17.", repo.PatientDataWindow.SomeContainer1.ImportInfo, new RecordItemIndex(5));
+            repo.PatientDataWindow.SomeContainer1.Import.Click("56;17");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'DataImportWindow'", repo.DataImportWindow.SelfInfo, new ActionTimeout(10000), new RecordItemIndex(6));
+            repo.DataImportWindow.SelfInfo.WaitForExists(10000);
+            
         }
 
 #region Image Feature Data
