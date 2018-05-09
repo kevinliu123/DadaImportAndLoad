@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="DataImportAndLoad"
+      id="e210ef83-3a30-4580-81ca-ffa346047864"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="DataImportAndLoad"
+      id="e210ef83-3a30-4580-81ca-ffa346047864"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

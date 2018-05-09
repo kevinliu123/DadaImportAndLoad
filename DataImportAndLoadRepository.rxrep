@@ -1,0 +1,58 @@
+﻿<repository
+id="8022a725-4058-4c85-81fb-83a253346d05"
+name="DataImportAndLoadRepository"
+rxversion="8.1">
+	<codegen
+	classname="DataImportAndLoadRepository"
+	namespace="DataImportAndLoad">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f1452eba-c83e-42c8-9d6c-0e9801d48e51"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="23d6a5e1-ab9c-4b39-8f02-f02fa6c12134"
+		isrooted="True"
+		name="Form7DSurgicalSoftwareSpineModule"
+		refpath="/form[@title='7D Surgical Software - Spine Module']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="3b87049f-f924-4d13-aff2-7090a683dd02"
+			name="SelectPatientDataForThisProcedure"
+			refimgid="c071c7fe-5c95-413b-98c3-49629f317d37"
+			refpath="/form[@title='7D Surgical Software - Spine Module']/container[2]/list[@automationid='MessageBar']/text[@caption='Select patient data for this procedure.']"
+			searchtimeout="30000ms">
+				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/?/?/list[@automationid='MessageBar']/text[@caption~'^Select\ patient\ data\ for\ t']
+			</item>
+			<basepath>
+				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhPpZPPaxpBFMf9Q5ofTWiggV5bekpD
+Q0+BpO3Bk+0toUfB+1KCIKkQCmu8NNTG01riQazoxR8o6FY8NKikIIJVMUWNu+7O7Mz+ojODwgb6
+I6FfeMzOvvf98PbNrMv+TzkB5mdBUGKCAJyRSn5RabLT6eD42RkYj8eIVc/kBKDlOwvo7sKi7YxP
+HyPYJHqxs8tyW082oUE081wDWI1GAzfqdX0eJx9OrojXGo1GiO5fe14ZFNLr9VhXVH+cgaZpxubG
+hjwYDPTjUIgZjnmedfGj0/k3IHj4DpJi+GZvXzsMBDT6LhwK3Qzw/eICra2smi93n0+p4VYAOjBi
+1O7fWzPPv53fHhA9PaWt2yGex7IkASfg/dER/ivg5+UlfrC+bjx7uqVjjM05YGd7G73lOPT44SNz
+ZXHJIncBzizXAWRgkBZ8FUVM97IsU4A1j9WlZcN/cKCw4plckiQZ5Px1UmxYloW63S5oNpsYQmi1
+Wi19OBxCkoPtdhuSI9UAACYN6mOAcDgsJZNJORKJ0LaQ2+2WarWa6vP5pHQ6PSVxxfM8FARhms1m
+lXg8rpJnJRaLAQYQRVGNRqMTjuOmk8lE83g8ci6XU71e76harSKyKsFgEOTzea1YLMJAICD5/X6J
+ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
+WGxICxTCCOcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

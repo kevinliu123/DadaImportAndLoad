@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="74a5977c-e90b-4a3d-9939-61ae8d573c29"
+mode="Desktop"
+rxversion="8.1">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="DataImportAndLoad">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\7D Surgical System\Applications\Spine\SD.Spine.Application.exe
+			</filename>
+			<workingdir>
+				C:\7D Surgical System\Applications\Spine
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="fdba2f7d-c4c6-419c-84a6-c180d6c5f432">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3b87049f-f924-4d13-aff2-7090a683dd02"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/?/?/list[@automationid='MessageBar']/text[@caption~'^Select\ patient\ data\ for\ t']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Select patient data for this procedure.
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="8022a725-4058-4c85-81fb-83a253346d05"
+	name="DataImportAndLoadRepository"
+	relativepath="DataImportAndLoadRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="DataImportAndLoadRepository"
+		namespace="DataImportAndLoad">
+		</codegen>
+		<rootfolder
+		id="f1452eba-c83e-42c8-9d6c-0e9801d48e51"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
